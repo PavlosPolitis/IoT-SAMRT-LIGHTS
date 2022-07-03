@@ -1,0 +1,8 @@
+1. open "code" folder.
+2. open "app.js".
+3. install libraries: express, mongoose, bodyParser, CORS.
+4. run "node app.js" command.
+5. "connected to DB!" message when connected to mongoDB database.
+6. open "map.html" via browser.
+7. map now is opened with some icons on in.
+8. enjoy.
