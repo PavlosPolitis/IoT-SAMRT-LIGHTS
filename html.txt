@@ -1,11 +1,11 @@
-Αφού τρέξουμε το api app.js.
-Στον φάκελο, code/html.
-Όταν ανοίγει το map.html αρχείο βλέπουμε τον map της εγαρμογής. 
-Βλέπουμε διάφορα εικονίδια πάνω με τις τιμές που υπάρχουν στην βάση δεδομένων εκείνη την στιγμή.
-Για να λειτουργήσουν τα κουμπιά, πατάμε το κουμπί και μετά refresh για να δεχτεί τα δεδομένα.
-Το ίδιο ισχύει και για την αυξομείωση του φωτισμού σε κάθε φως μεμονομένο.
-Με το κουμπί RESET όλες οι τιμές από τα φώτα και τα motion detectors γίνονται 0. 
-Scenario 1: Έστω ότι έχουμε μία κίνηση στο motion 1, και ότι ο περιβάλλον φωτισμός είναι χαμηλός,
-άρα πρέπει να ανοίξουν τα φώτα μέχρι το 0.5 της φωτεινότητας.
-Scenario 2 (δεν χρειάζεται refresh): Έστω ότι ένα φώς βγαίνει ότι έχει κάποια βλάβη, τονίζεται στον χάρτι
-με κόκκινο κύκλο και μας βγάζει την ένδειξη "not ok".
+Run api app.js.
+In folder, code/html.
+When the map.html is opened we see the map of the ECE, the university of Patras facility.
+We see various icons above with the values that are in the database at that moment.
+For the buttons to work, we press the button and then refresh to accept the data.
+The same applies to increasing the illumination on each individual light.
+With the RESET button all values from lights and motion detectors become 0.
+Scenario 1: Suppose we have a motion in motion 1, and that the ambient lighting is low,
+so they have to turn on the lights up to 0.5 of the brightness.
+Scenario 2 (no need to refresh): Even if a light turns out to have a fault, it is highlighted on the paper
+with a red circle and gives us the indication "not ok".
